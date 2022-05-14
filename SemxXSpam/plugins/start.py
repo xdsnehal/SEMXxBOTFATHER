@@ -1,10 +1,10 @@
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, Button
-from .. import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, ALIVE_PIC, OWNER_ID
+from .. import MK1, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10, OWNER_ID
 from SemxXSpam.plugins.help import *
 
 
-MIG_IMG = ALIVE_PIC if ALIVE_PIC else "https://te.legra.ph/file/91d82bf74b7a75468f5ef.jpg"
+RYAN_IMG = "https://te.legra.ph/file/91d82bf74b7a75468f5ef.jpg"
 
 Ryan_Button = [
         [
@@ -53,12 +53,12 @@ async def start(event):
        usermsg = f"**Hello !! [{firstname}](tg://user?id={userid})\nNice To Meet You, Well I Am [{bot_name}](tg://user?id={bot_id}), A Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From The Button Given Below.** \n\n**Powered By : [𝙎𝙚𝙢𝙭𝙓𝙎𝙥𝙖𝙢](https://t.me/rudra_hun_vaii)**"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheRyan,
-                  MIG_IMG,
+                  RYAN_IMG,
                   caption=ownermsg, 
                   buttons=Ryan_Button)
        else:
             await event.client.send_file(TheRyan,
-                  MIG_IMG,
+                  RYAN_IMG,
                   caption=usermsg, 
                   buttons=RyanX_Button)
                 
