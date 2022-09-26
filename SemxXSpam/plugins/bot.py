@@ -22,10 +22,10 @@ from datetime import datetime
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
-        event = await e.reply("𝙋𝙤𝙣𝙜!", parse_mode=None, link_preview=None )
+        event = await e.reply("𝗦𝗔𝗕𝗛𝗥𝗥 𝗥𝗛𝗞 𝗠𝗗𝗘𝗥𝗖𝗛𝗢𝗗!", parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"🎉 BHOSDIWALA ✘SPAM 🤖!\n✘`{ms}` ms\n 😈𝙍𝙀𝘼𝘿𝙔 𝙁𝙊𝙍 𝙎𝙀𝙈𝙓🤧")
+        await event.edit(f"🎉𝐔𝐑𝐀𝐍𝐈𝐔𝐌 ✘ 𝐒𝐏𝐀𝐌 🤖!\n✘`{ms}` ms\n 𝗧𝗔𝗜𝗬𝗔𝗥 𝗛𝗢 𝗝𝗔 𝗟𝗢𝗗𝗘👅👅")
         
         
 
