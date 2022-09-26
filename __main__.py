@@ -3,8 +3,7 @@ import glob
 from pathlib import Path
 from SemxXSpam.utils import load_plugins
 import logging
-from . import MK, MK2, MK3, MK4, MK5, MK6, MK7, MK8, MK9, MK10
-
+from . import MK
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
 
